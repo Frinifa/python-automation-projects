@@ -4,19 +4,24 @@ A collection of simple Python scripts for common automation tasks.
 
 ## Description
 
-This repository contains two Python automation scripts designed to perform basic file operations and text analysis tasks. These scripts are lightweight, easy to use, and demonstrate fundamental Python programming concepts.
+This repository contains Python automation scripts designed to perform basic file operations, text analysis, and password generation. These scripts are lightweight, easy to use, and demonstrate fundamental Python programming concepts.
 
-## Features
+## Scripts
 
 ### File Renamer (`file_renamer.py`)
-- Automatically renames all files in the current directory
+- Automatically renames all files in the current directory.
 - Converts files to a standardized naming format: `photo1.jpg`, `photo2.jpg`, etc.
-- Useful for organizing photo collections or batch renaming files
+- Useful for organizing photo collections or batch renaming files.
 
 ### Word Counter (`word_counter.py`)
-- Counts words and characters in user-input text
-- Provides instant feedback on text statistics
-- Simple command-line interface for text analysis
+- Counts words and characters in user-input text.
+- Provides instant feedback on text statistics.
+- Simple command-line interface for text analysis.
+
+### Password Generator (`password_generator.py`)
+- Generates a secure password with a mix of letters, numbers, and symbols.
+- Allows specifying length and character set.
+- Useful for creating strong passwords for accounts or services.
 
 ## Requirements
 
