@@ -26,7 +26,7 @@ This repository contains Python automation scripts designed to perform basic fil
 ## Requirements
 
 - Python 3.x
-- Standard library modules (os, sys)
+- Standard library modules (os, sys, random, string)
 
 ## Installation
 
@@ -56,6 +56,12 @@ Enter a sentence: Hello world, this is a test.
 Words: 6
 Characters: 27
 ```
+
+### Password Generator
+```bash
+python password_generator.py
+```
+Follow the prompts to specify the desired password length (e.g., 12). The script will output a randomly generated password.
 
 ## Contributing
 
