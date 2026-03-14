@@ -4,7 +4,7 @@ A collection of simple Python scripts for common automation tasks.
 
 ## Description
 
-This repository contains Python automation scripts designed to perform basic file operations, text analysis, and password generation. These scripts are lightweight, easy to use, and demonstrate fundamental Python programming concepts.
+This repository contains Python automation scripts designed to perform basic file operations, text analysis, password generation, and web scraping. These scripts are lightweight, easy to use, and demonstrate fundamental Python programming concepts.
 
 ## Scripts
 
@@ -23,16 +23,22 @@ This repository contains Python automation scripts designed to perform basic fil
 - Allows specifying length and character set.
 - Useful for creating strong passwords for accounts or services.
 
+### Web Scraper (`web_scraper.py`)
+- Scrapes the top headlines from Hacker News.
+- Displays the top 10 current stories.
+- Demonstrates basic web scraping with requests and BeautifulSoup.
+
 ## Requirements
 
 - Python 3.x
 - Standard library modules (os, sys, random, string)
+- External libraries: requests, beautifulsoup4
 
 ## Installation
 
 1. Clone or download the repository
 2. Ensure Python 3.x is installed on your system
-3. No additional dependencies required
+3. Install required dependencies: `pip install requests beautifulsoup4`
 
 ## Usage
 
@@ -62,6 +68,12 @@ Characters: 27
 python password_generator.py
 ```
 Follow the prompts to specify the desired password length (e.g., 12). The script will output a randomly generated password.
+
+### Web Scraper
+```bash
+python web_scraper.py
+```
+This script fetches and displays the top 10 headlines from Hacker News. Requires an internet connection.
 
 ## Contributing
 
