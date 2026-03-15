@@ -28,6 +28,11 @@ This repository contains Python automation scripts designed to perform basic fil
 - Displays the top 10 current stories.
 - Demonstrates basic web scraping with requests and BeautifulSoup.
 
+### CSV Cleaner (`csv_cleaner.py`)
+- Removes duplicate rows from a CSV file.
+- Reads from "data.csv" and writes cleaned data to "cleaned_data.csv".
+- Useful for cleaning up data files with repeated entries.
+
 ## Requirements
 
 - Python 3.x
@@ -74,6 +79,12 @@ Follow the prompts to specify the desired password length (e.g., 12). The script
 python web_scraper.py
 ```
 This script fetches and displays the top 10 headlines from Hacker News. Requires an internet connection.
+
+### CSV Cleaner
+```bash
+python csv_cleaner.py
+```
+Place your CSV file as "data.csv" in the same directory. The script will create "cleaned_data.csv" with duplicates removed.
 
 ## Contributing
 
