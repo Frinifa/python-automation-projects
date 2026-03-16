@@ -33,6 +33,12 @@ This repository contains Python automation scripts designed to perform basic fil
 - Reads from "data.csv" and writes cleaned data to "cleaned_data.csv".
 - Useful for cleaning up data files with repeated entries.
 
+### File Organizer (`file_organizer.py`)
+- Organizes files in the current directory into folders based on file type.
+- Creates "Images" folder for .jpg and .png files.
+- Creates "Documents" folder for .pdf and .txt files.
+- Creates "Audio" folder for .mp3 files.
+
 ## Requirements
 
 - Python 3.x
@@ -85,6 +91,14 @@ This script fetches and displays the top 10 headlines from Hacker News. Requires
 python csv_cleaner.py
 ```
 Place your CSV file as "data.csv" in the same directory. The script will create "cleaned_data.csv" with duplicates removed.
+
+### File Organizer
+```bash
+python file_organizer.py
+```
+Run this script in the directory containing the files you want to organize. It will create subfolders ("Images", "Documents", "Audio") and move files accordingly.
+
+**Warning:** This script will move files in the current directory. Make sure you're in the correct directory and have backups if needed.
 
 ## Contributing
 
