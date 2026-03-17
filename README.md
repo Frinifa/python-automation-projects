@@ -39,11 +39,16 @@ This repository contains Python automation scripts designed to perform basic fil
 - Creates "Documents" folder for .pdf and .txt files.
 - Creates "Audio" folder for .mp3 files.
 
+### System Monitor (`system_monitor.py`)
+- Monitors system resource usage.
+- Displays CPU, memory, and disk usage percentages.
+- Useful for quick system health checks.
+
 ## Requirements
 
 - Python 3.x
 - Standard library modules (os, sys, random, string)
-- External libraries: requests, beautifulsoup4
+- External libraries: requests, beautifulsoup4, psutil
 
 ## Installation
 
@@ -97,6 +102,12 @@ Place your CSV file as "data.csv" in the same directory. The script will create 
 python file_organizer.py
 ```
 Run this script in the directory containing the files you want to organize. It will create subfolders ("Images", "Documents", "Audio") and move files accordingly.
+
+### System Monitor
+```bash
+python system_monitor.py
+```
+This script displays the current CPU, memory, and disk usage percentages of your system.
 
 **Warning:** This script will move files in the current directory. Make sure you're in the correct directory and have backups if needed.
 
