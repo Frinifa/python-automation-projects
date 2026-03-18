@@ -1,7 +1,7 @@
 import smtplib
 
-sender_email = "aarthimoorthi93@gmail.com"
-receiver_email = "aarthi44899@gmail.com"
+sender_email = "frinifababu@gmail.com"
+receiver_email = "frinifababu@gmail.com"
 password = "your_app_password_here"
 
 message = "Subject: Python Automation\n\nHello, this email was sent using Python."
