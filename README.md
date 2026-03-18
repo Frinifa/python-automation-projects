@@ -44,6 +44,11 @@ This repository contains Python automation scripts designed to perform basic fil
 - Displays CPU, memory, and disk usage percentages.
 - Useful for quick system health checks.
 
+### Job Scraper (`job_scraper.py`)
+- Sends automated emails using SMTP.
+- Demonstrates email automation with Python's smtplib.
+- Useful for sending notifications or reports via email.
+
 ## Requirements
 
 - Python 3.x
