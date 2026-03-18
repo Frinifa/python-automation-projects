@@ -4,7 +4,7 @@ A collection of simple Python scripts for common automation tasks.
 
 ## Description
 
-This repository contains Python automation scripts designed to perform basic file operations, text analysis, password generation, and web scraping. These scripts are lightweight, easy to use, and demonstrate fundamental Python programming concepts.
+This repository contains Python automation scripts designed to perform basic file operations, text analysis, password generation, web scraping, email sending, and system monitoring. These scripts are lightweight, easy to use, and demonstrate fundamental Python programming concepts.
 
 ## Scripts
 
