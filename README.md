@@ -28,6 +28,11 @@ This repository contains Python automation scripts designed to perform basic fil
 - Displays the top 10 current stories.
 - Demonstrates basic web scraping with requests and BeautifulSoup.
 
+### Email Sender (`email_sender.py`)
+- Sends automated emails using SMTP.
+- Demonstrates email automation with Python's smtplib.
+- Useful for sending notifications or reports via email.
+
 ### CSV Cleaner (`csv_cleaner.py`)
 - Removes duplicate rows from a CSV file.
 - Reads from "data.csv" and writes cleaned data to "cleaned_data.csv".
