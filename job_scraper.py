@@ -1,18 +1,20 @@
-import smtplib
+import requests
+from bs4 import BeautifulSoup
 
-sender_email = "frinifababu@gmail.com"
-receiver_email = "frinifababu@gmail.com"
-password = "your_app_password_here"
+url = "https://realpython.github.io/fake-jobs/"
 
-message = "Subject: Python Automation\n\nHello, this email was sent using Python."
+response = requests.get(url)
 
-server = smtplib.SMTP("smtp.gmail.com", 587)
-server.starttls()
+soup = BeautifulSoup(response.text, "html.parser")
 
-server.login(sender_email, password)
+jobs = soup.find_all("div", class_="card-content")
 
-server.sendmail(sender_email, receiver_email, message)
+print("Job Listings\n")
 
-print("Email sent successfully")
+for job in jobs[:10]:
+    title = job.find("h2", class_="title").text.strip()
+    company = job.find("h3", class_="company").text.strip()
 
-server.quit()
+    print("Job:", title)
+    print("Company:", company)
+    print()
